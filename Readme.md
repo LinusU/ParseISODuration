@@ -28,7 +28,7 @@ try! TimeInterval(fromISODuration: "Hello world") // Throws ParseISODurationErro
 
 ## Year and month
 
-If years or months is specified and more than 0 the library will throw `ParseISODurationError.ambiguousDuration` since it's meaning can't be converted to milliseconds.
+If years or months is specified and more than 0 the library will throw `ParseISODurationError.ambiguousDuration` since its meaning can't be converted to milliseconds.
 
 ## Related
 
